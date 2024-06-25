@@ -1,0 +1,9 @@
+// The useEffect is a function that is called wheneven a page renders. 
+// The useEffect is used to detect wheneven a page re-renders.
+
+// The useEffect allows you to run side effects, such as making API calls, setting time, or updating the DOM, after rendering a Component. It helps to handle tasks that require access to the component's props, state, or DOM nodes.  
+
+// useEffect takes two arguments (effect and dependency array):
+// 1. effect: A function that runs the side effect.
+// 2. dependency array: An optional array of dependencies that triggers the effect to re-run when changed.
+
