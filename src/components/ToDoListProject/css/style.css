@@ -1,0 +1,29 @@
+.todo-wrapper {
+    margin: auto;
+    width: 100%;
+    padding: 2rem;
+    background-color: #4f5e1b;
+}
+
+/* .todo-form{
+
+} */
+
+.todo-input{
+    background-color: #505e1b8e;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: 1px solid #c4e940;
+}
+
+.todo-btn {
+    padding: 0.5rem 1rem;
+    background-color: #c4e940;
+}
+
+
+@media screen and (min-width: 700px){
+    .todo-wrapper{
+        max-width: 400px;
+    }
+}

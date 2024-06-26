@@ -1,9 +1,9 @@
 // The useEffect allows you to run side effects, such as making API calls, setting time, or updating the DOM, after rendering a Component. It helps to handle tasks that require access to the component's props, state, or DOM nodes.
 
-// The useEffect is a complementary of the componentDidMount() used in Stateful Component 
+// The useEffect is a complementary of the componentDidMount() used in Stateful Component
 
-// useEffect takes two arguments (effect and dependency array):
-// 1. effect: A function that runs the side effect.
+// useEffect takes two arguments (effect and dependency array):::::::::::
+// 1. effect: A function that runs the side effect.......................
 // 2. dependency array: An optional array of dependencies that triggers the effect to re-run when changed.
 
 import React, { useEffect, useState } from "react";

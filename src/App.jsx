@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import HookReducer from './components/useReducer/HookReducer'
 import HookCount from './components/useState/HookCount'
 import StateHook from './components/useState/StateHook'
 import StateProps from './components/useState/StateProps'
 import EffectTutorial from './components/useEffect/EffectTutorial'
+
+// TodoList 
+import TodoWrapper from './components/ToDoListProject/TodoWrapper'
+
+
 
 function App() {
   return (
@@ -19,7 +21,12 @@ function App() {
       {/* < StateHook/> */}
       {/* < StateProps name="Iyanu" /> */}
       {/* < HookReducer/> */}
-      < EffectTutorial/>
+      {/* < EffectTutorial/> */}
+
+
+      {/* ToDoList Project Components */}
+      < TodoWrapper/>
+      
       </div>
     </>
   )
