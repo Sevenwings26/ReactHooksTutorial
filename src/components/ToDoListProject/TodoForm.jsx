@@ -23,7 +23,6 @@ export default function TodoForm({addTodo}) {
           
         />
         <button type="submit" className="todo-btn">Add Task</button>
-      < Todo/>
       </form>
     </div>
   );
