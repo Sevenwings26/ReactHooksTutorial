@@ -19,7 +19,6 @@ function TodoWrapper() {
   return (
     <div className="todo-wrapper">
       <TodoForm addTodo={addTodo} />
-
       <Todo/>
     </div>
   );
