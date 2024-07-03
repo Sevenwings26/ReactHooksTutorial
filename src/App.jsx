@@ -7,6 +7,9 @@ import EffectTutorial from './components/useEffect/EffectTutorial'
 
 // TodoList 
 import TodoWrapper from './components/ToDoListProject/TodoWrapper'
+import Update from './components/ClassLifeCycle/Update'
+import RefTutorial from './components/useRef/RefTutorial'
+import UseLatoutEffectTutorial from './components/useLayoutEffect/UseLatoutEffectTutorial'
 
 
 
@@ -18,14 +21,16 @@ function App() {
           count is {count}
         </button> */}
         {/* < HookCount/> */}
-      {/* < StateHook/> */}
-      {/* < StateProps name="Iyanu" /> */}
-      {/* < HookReducer/> */}
-      {/* < EffectTutorial/> */}
-
+        {/* < StateHook/> */}
+        {/* < StateProps name="Iyanu" /> */}
+        {/* < HookReducer/> */}
+        {/* < EffectTutorial/> */}
+        {/* <RefTutorial /> */}
+        < UseLatoutEffectTutorial/>
 
       {/* ToDoList Project Components */}
-      < TodoWrapper/>
+      {/* < TodoWrapper/> */}
+      
       
       </div>
     </>

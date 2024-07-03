@@ -1,9 +1,9 @@
 import React from 'react'
 import "./css/style.css"
 // import 'font-awesome/css/font-awesome.min.css';
-import {fontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faPenToSquare } from '@fortawesome/free-regular-svg-icons'
-import { faTrash } from '@fortawesome/free-solid-svg-icons'
+// import {fontAwesomeIcon} from "@fortawesome/react-fontawesome"
+// import { faPenToSquare } from '@fortawesome/free-regular-svg-icons'
+// import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 export const Todo = () => {
   return (

@@ -16,9 +16,10 @@ function TodoWrapper() {
       { id: uuidv4(), task: todo, completed: false, isEditing: false },
     ]);console.log(todos)
   };
+
   return (
     <div className="todo-wrapper">
-      <TodoForm addTodo={addTodo} />
+      < TodoForm addTodo = {addTodo} />
       <Todo/>
     </div>
   );
