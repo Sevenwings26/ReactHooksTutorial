@@ -1,17 +1,16 @@
-import './App.css'
-import HookReducer from './components/useReducer/HookReducer'
-import HookCount from './components/useState/HookCount'
-import StateHook from './components/useState/StateHook'
-import StateProps from './components/useState/StateProps'
-import EffectTutorial from './components/useEffect/EffectTutorial'
+import "./App.css";
+import HookReducer from "./components/useReducer/HookReducer";
+import HookCount from "./components/useState/HookCount";
+import StateHook from "./components/useState/StateHook";
+import StateProps from "./components/useState/StateProps";
+import EffectTutorial from "./components/useEffect/EffectTutorial";
 
-// TodoList 
-import TodoWrapper from './components/ToDoListProject/TodoWrapper'
-import Update from './components/ClassLifeCycle/Update'
-import RefTutorial from './components/useRef/RefTutorial'
-import UseLatoutEffectTutorial from './components/useLayoutEffect/UseLatoutEffectTutorial'
-
-
+// TodoList
+import TodoWrapper from "./components/ToDoListProject/TodoWrapper";
+import Update from "./components/ClassLifeCycle/Update";
+import RefTutorial from "./components/useRef/RefTutorial";
+import UseLatoutEffectTutorial from "./components/useLayoutEffect/UseLatoutEffectTutorial";
+import ContextTutorial from "./components/useContext/ContextTutorial";
 
 function App() {
   return (
@@ -23,18 +22,18 @@ function App() {
         {/* < HookCount/> */}
         {/* < StateHook/> */}
         {/* < StateProps name="Iyanu" /> */}
-        {/* < HookReducer/> */}
+        {/* <HookReducer /> */}
         {/* < EffectTutorial/> */}
         {/* <RefTutorial /> */}
-        < UseLatoutEffectTutorial/>
+        {/* < UseLatoutEffectTutorial/> */}
 
-      {/* ToDoList Project Components */}
-      {/* < TodoWrapper/> */}
-      
-      
+        {/* ToDoList Project Components */}
+        {/* < TodoWrapper/> */}
+
+        <ContextTutorial />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
